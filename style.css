@@ -1,0 +1,271 @@
+body {
+    background: repeating-linear-gradient(to left, #900C3F, #FFF6DC);
+}
+
+
+.heading{
+display: flex;
+justify-content: center;
+}
+
+.head{
+text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+
+}
+
+.box {
+    position: relative;
+}
+
+.img1 {
+margin: 10px;
+opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img1:hover{
+    opacity: .5;
+}
+
+.type1 {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+    font-size: 0;
+}
+
+.type2 {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+    font-size: 0;
+}
+
+.type3 {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+    font-size: 0;
+}
+
+.type4 {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+    font-size: 0;
+}
+
+.selected .text {
+    font-size: 70px;
+    transition: all 1s ease;
+}
+
+.saladheading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.saladhead {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+}
+
+.containersalad {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+.textsalad {
+    font-size: 20px;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+}
+
+.saladinput {
+    display: flex;
+}
+
+.saladsearch {
+    flex: 1;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    font-family: 'Victor Mono', monospace;
+}
+
+.saladbtn {
+    font-size: 40px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+    box-shadow: inset 0 0 0 0 #900C3F;
+  color: aliceblue;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.saladbtn:hover {
+    box-shadow: inset 300px 0 0 0 #900C3F;
+  color: aliceblue;
+}
+
+.soupheading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.souphead {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586
+}
+
+.soupinput {
+    display: flex;
+}
+
+.soupsearch {
+    flex: 1;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    font-family: 'Victor Mono', monospace;
+}
+
+.soupcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.souptext {
+    font-size: 20px;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+}
+
+.mealheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mealhead {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+    margin-right: 500px;
+}
+
+.mealinput {
+    display: flex;
+}
+
+.mealsearch {
+    flex: 1;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    font-family: 'Victor Mono', monospace;
+}
+
+.mealcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mealtext {
+    font-size: 20px;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+}
+
+.dessertheading {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.desserthead {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+}
+
+.dessertinput {
+display: flex;
+}
+
+.dessertsearch {
+    flex: 1;
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    font-family: 'Victor Mono', monospace;
+}
+
+.dessertcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.desserttext {
+    font-size: 20px;
+    font-family: 'Victor Mono', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #E48586;
+}
